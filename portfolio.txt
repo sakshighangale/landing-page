@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Sakshi Ghangale</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Sakshi Ghangale</h1>
+                <h4 class="sub-heading">
+                    A web developer with 3 years of Experience.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <button class="btn ghost-btn">Get Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.EeZQNxbf-XfBFSU90oPAvQHaEu&pid=Api&P=0&h=220"
+                                 alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para blue-text">Designing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.-UdUYw_sVZ---0DmEqcHFgHaH1&pid=Api&P=0&h=220"
+                                 alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para blue-text">Development</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://tse1.mm.bing.net/th?id=OIP.yo6mRt4PPOPcBTP2lj_4awHaE8&pid=Api&P=0&h=220" alt="SEO Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">SEO</h3>
+                        <p class="small-para blue-text">Optimization</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://as2.ftcdn.net/v2/jpg/02/87/54/81/1000_F_287548130_0Z2UfwSkXFZb2Z9DgVGnZQUsPG0L38pt.jpg" 
+                                 alt="Content Writting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writing
+                          </h3>
+                        <p class="small-para blue-text">Writing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.NY-GQ0Yq9mxrkc6UVnMh7wHaEK&pid=Api&P=0&h=220"
+                                 alt="Wordpress Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Wordpress Dev
+                          </h3>
+                        <p class="small-para blue-text">
+                              Content Management System
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://assets-global.website-files.com/5fac161927bf86485ba43fd0/64076c6cd28e04093171e7ef_Blog%20Cover_2023_02_10%20Video%20Editing%20Ideas%20for%20Beginners%20to%20Create%20Professionally.webp"
+                                 alt="Video Editing Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para blue-text">Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+              Hi, I'm Ghanagle Sakshi Dilip a passionate web developer and designer 
+              with a drive to create innovative digital experiences. With 3 years of
+              experience in web development, I specialize in crafting responsive,
+              user-friendly websites and applications that inspire and engage users.
+              When I'm not coding, you can find me exploring new technologies, 
+              attending industry events, or collaborating with fellow developers.
+              I aim to continue pushing the boundaries of web development and 
+              exploring new technologies to stay ahead of the curve. Explore my
+              portfolio to see my latest projects, and let's connect to discuss how
+              I can help bring your digital vision to life.
+   
+            </p>
+            <p>
+                Our exceptional mentors hailing from top 
+                  colleges & organizations have the
+                ability to guide you on a journey from 
+                  the humble beginnings of coding to
+                the pinnacle of expertise. Under their 
+                  guidance watch your skills flourish
+                as we lay the foundation and help you 
+                  conquer the world of coding.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="https://www.collegechalo.com/news/wp-content/uploads/2020/02/FIDE2-1024x950.jpg"
+            alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para">
+                            "I designed and developed an e-commerce
+                             website for XYZ Fashion in 2022. The goal
+                              was to increase online sales and improve customer engagement.
+                               I was responsible for wireframing, visual design, and front-end development.
+                                Using Sketch, Figma, and WordPress, I created a responsive and
+                                 user-friendly website that resulted in a 25% increase in website
+                                  traffic and a 15% increase in online sales."
+                        </p>
+                        <p class="small-para">
+                             It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para">
+                            "I developed a custom e-commerce platform for ABC Online Store in 2022.
+                             The goal was to improve user experience and increase conversions.
+                              I utilized HTML, CSS, JavaScript, and React to build a 
+                              fast and scalable web application that resulted in a
+                               20% increase in website traffic and a 15% increase in online sales.
+                        </p>
+                        <p class="small-para">
+                            Key features included user authentication, 
+                            payment gateway integration, and product recommendation engine.
+                             I successfully improved page load times by
+                              30% and reduced bugs by 25%."
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">SEO</h3>
+                        <p class="small-para">
+                            "I successfully implemented an SEO strategy 
+                            for XYZ Corporation's e-commerce website in 2022,
+                             resulting in a 50% increase in organic traffic and 
+                             a 20-position improvement in search engine rankings.
+                              My approach included keyword research, on-page optimization,
+                               technical SEO, and link building. I conducted thorough
+                                keyword research to identify relevant terms and phrases,
+                                 optimized website content and meta tags.
+                        </p>
+                        <p class="small-para">
+                            Additionally, I built high-quality backlinks from
+                             authoritative sources to increase domain authority 
+                
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writting
+                          </h3>
+                        <p class="small-para">
+                            "I crafted high-quality, engaging content for ABC Startup's blog in 2022, 
+                            resulting in a 30% increase in website traffic and a 50% boost in social media engagement.
+                             My content strategy focused on writing informative, SEO-friendly blog posts and
+                              social media content that resonated with ABC Startup's target audience.Through my content,
+                               ABC Startup established itself as a thought leader in the tech industry 
+                               
+                        </p>
+                        <p class="small-para">
+                            I researched and wrote content on industry trends, best practices, and company news,
+                            increasing brand awareness and driving conversions.   
+                           
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Wordpress Dev
+                          </h3>
+                        <p class="small-para">
+                            "I designed and developed a custom WordPress website for XYZ Corporation in 2022, 
+                            resulting in a 40% improvement in website speed and a 25% increase in online engagement.
+                             Utilizing my expertise in WordPress development, I created a bespoke theme, customized plugins,
+                              and optimized website performance.
+                        </p>
+                        <p class="small-para">
+                            I also implemented Gravity Forms for seamless contact form integration. Through my WordPress expertise, 
+                            XYZ Corporation achieved a professional online presence, improved user experience, and increased website functionality."
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            "I edited a promotional video for ABC Startup in 2022, resulting in a 50% increase in engagement and a 20% boost in conversions.
+                             Using Adobe Premiere Pro, I crafted a compelling narrative, synchronized audio and visuals, and applied motion graphics
+                              and effects to enhance the overall viewing experience. The final product was a 2-minute promotional video showcasing
+                               ABC Startup's innovative product features and benefits. 
+                        </p>
+                        <p class="small-para">
+                            Through my video editing expertise, ABC Startup effectively communicated their message,
+                             showcased their brand, and resonated with their target audience."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">sakshighangale@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 9023456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+91 8723456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">San Francisco, CA</p>
+                    <p>4th Floor8 Lower</p>
+                    <p>San Francisco street, M1 50F</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2023 All rights reserved |
+                This portfolio website template is created 
+                  by GeeksforGeeks.
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script1.js"></script>
+</body>
+
+</html>

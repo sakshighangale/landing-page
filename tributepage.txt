@@ -1,0 +1,77 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Timeline
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex flex-col md:flex-row">
+   <!-- Sidebar -->
+   <div class="bg-white w-full md:w-1/3 p-4">
+    <div class="flex items-center justify-between">
+     <h1 class="text-3xl font-bold">
+      Timeline
+     </h1>
+     <i class="fas fa-bars text-xl">
+     </i>
+    </div>
+    <div class="mt-8">
+     <div class="relative pl-8 mb-8">
+      <div class="absolute left-0 top-0 h-full border-l-2 border-gray-300">
+      </div>
+      <div class="absolute left-0 top-0 w-4 h-4 bg-gray-300 rounded-full">
+      </div>
+      <p class="font-bold">
+       1971
+      </p>
+      <p>
+       Elon Musk is born in South Africa to an engineer father and a model mother.
+      </p>
+     </div>
+     <div class="relative pl-8 mb-8">
+      <div class="absolute left-0 top-0 h-full border-l-2 border-gray-300">
+      </div>
+      <div class="absolute left-0 top-0 w-4 h-4 bg-gray-300 rounded-full">
+      </div>
+      <p class="font-bold">
+       1983
+      </p>
+      <p>
+       Writes first video game called Blastar; sells for $500.
+      </p>
+     </div>
+     <div class="relative pl-8 mb-8">
+      <div class="absolute left-0 top-0 h-full border-l-2 border-gray-300">
+      </div>
+      <div class="absolute left-0 top-0 w-4 h-4 bg-gray-300 rounded-full">
+      </div>
+      <p class="font-bold">
+       1995-1991
+      </p>
+      <p>
+       Attends college at Queen's University in Kingston, Ontario. Then transfers to the University of Pennsylvania; completed a BS in Economics (Wharton) and a BA with a major in physics.
+      </p>
+     </div>
+    </div>
+   </div>
+   <!-- Main Content -->
+   <div class="bg-blue-900 text-white w-full md:w-2/3 p-8 flex flex-col items-center justify-center">
+    <img alt="Portrait of Elon Musk" class="rounded-full mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/F5mpov7nH0VJTMIgGkqM7bDs5PHlNFhRrRdRUWxFWLQ.jpg" width="200"/>
+    <h2 class="text-4xl font-bold mb-4">
+     Elon Musk
+    </h2>
+    <p class="text-center mb-4">
+     Elon Musk is a South African-born American entrepreneur and businessman who founded X.com in 1999 (which later became PayPal), SpaceX in 2002 and Tesla Motors in 2003. Musk became a multimillionaire in his late 20s when he sold his start-up company, Zip2, to a division of Compaq Computers. He has an estimated net worth of around $21.9 billion dollars and is listed as the 16th richest person in the world according to Forbes. His ultimate goal is to make life multiplanetary and help humanity explore beyond Earth.
+    </p>
+    <button class="bg-red-500 text-white px-4 py-2 rounded">
+     READ MORE
+    </button>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,91 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Job Portal
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto">
+  <header class="relative">
+   <img alt="Background image of a person using a phone and laptop" class="w-full h-screen object-cover" height="1080" src="https://storage.googleapis.com/a1aa/image/jNJgRexJQhkN8CFrOWmFBvCv9Q2ffHPu7gJnFZPz6mQ.jpg" width="1920"/>
+   <div class="absolute inset-0 bg-black opacity-50">
+   </div>
+   <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+    <h1 class="text-4xl md:text-6xl font-bold">
+     Your Dream
+    </h1>
+    <h2 class="text-2xl md:text-4xl">
+     Job is Waiting
+    </h2>
+    <p class="mt-4">
+     We have 850,000 great job offers you deserve!
+    </p>
+    <div class="mt-8 bg-white rounded-lg shadow-lg p-4 md:p-6 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+     <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded-md">
+      Find a Job
+     </button>
+     <button class="bg-blue-600 text-white px-4 py-2 rounded-md">
+      Find a Candidate
+     </button>
+     <input class="border border-gray-300 rounded-md px-4 py-2 w-full md:w-auto" placeholder="e.g. Graphic, Web Developer" type="text"/>
+     <input class="border border-gray-300 rounded-md px-4 py-2 w-full md:w-auto" placeholder="Category" type="text"/>
+     <input class="border border-gray-300 rounded-md px-4 py-2 w-full md:w-auto" placeholder="Location" type="text"/>
+     <button class="bg-blue-600 text-white px-4 py-2 rounded-md">
+      Search
+     </button>
+    </div>
+   </div>
+  </header>
+  <main class="bg-gray-100 py-12">
+   <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+     <div>
+      <i class="fas fa-search text-blue-600 text-4xl mb-4">
+      </i>
+      <h3 class="text-xl font-bold">
+       Search Millions of Jobs
+      </h3>
+      <p class="mt-2 text-gray-600">
+       A small river named Duden flows by their place and supplies.
+      </p>
+     </div>
+     <div>
+      <i class="fas fa-tasks text-blue-600 text-4xl mb-4">
+      </i>
+      <h3 class="text-xl font-bold">
+       Easy To Manage Jobs
+      </h3>
+      <p class="mt-2 text-gray-600">
+       A small river named Duden flows by their place and supplies.
+      </p>
+     </div>
+     <div>
+      <i class="fas fa-briefcase text-blue-600 text-4xl mb-4">
+      </i>
+      <h3 class="text-xl font-bold">
+       Top Careers
+      </h3>
+      <p class="mt-2 text-gray-600">
+       A small river named Duden flows by their place and supplies.
+      </p>
+     </div>
+     <div>
+      <i class="fas fa-user-tie text-blue-600 text-4xl mb-4">
+      </i>
+      <h3 class="text-xl font-bold">
+       Search Expert Candidates
+      </h3>
+      <p class="mt-2 text-gray-600">
+       A small river named Duden flows by their place and supplies.
+      </p>
+     </div>
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
